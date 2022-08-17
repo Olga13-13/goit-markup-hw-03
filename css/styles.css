@@ -1,0 +1,319 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color-theme-dark: #212121;
+    --secondary-text-color-theme-light: #ffffff;
+    --primary-text-color-theme-gray: #757575;
+    --secondary-text-color-theme-dark: #2F303A;
+    --accent-color: #2196F3;
+    --secondary-color: #F5F4FA;
+    --secondary-color-light: #FFFFFF;
+    --secondary-color-with: #EEEEEE;
+    --secondary-color-dark: #000000;
+    --color-bgc: #188CE8;
+}
+
+
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.menu-link.current {
+    color: var(--accent-color);
+}
+
+
+img {
+    display: block;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+body {
+    font-family: var(--primary-font);
+    background: var(--secondary-text-color-theme-light);
+    color: var(--primary-text-color-theme-dark);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+/* =========== HEADER =========== */
+
+.logo-header {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--secondary-color-dark);
+}
+
+.logo-header-part1 {
+    color: var(--accent-color);
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-theme-dark);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.contact-mail:hover,
+.contact-mail:focus, {
+    color: var(--accent-color);
+}
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: var(--accent-color);
+}
+
+.contact-mail,
+.contact-phone-number {
+    color: var(--primary-text-color-theme-gray);
+
+}
+
+/* =========== /HEADER =========== */
+
+/* =========== MAIN =========== */
+
+.page-main {}
+
+/* =========== SHAPKA ===========*/
+.section-shapka {
+    background: var(--secondary-text-color-theme-dark);
+}
+
+.section-shapka-h {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color-theme-light);
+}
+
+
+.section-modal-open-btn {
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+}
+
+.section-modal-open-btn:hover,
+.section-modal-open-btn:focus {
+    background-color: var(--color-bgc);
+}
+
+.btn-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color-theme-light);
+}
+/* =========== /SHAPKA ===========*/
+
+/* =========== PORTFOLIO  ===========*/
+
+/* =========== PORTFOLIO-FILTERS ===========*/
+.section-portfolio{}
+
+.portfolio-filters {}
+
+
+
+.filters {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+                0px 1px 2px rgba(0, 0, 0, 0.08),
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    align-items: center;
+    color: var(--primary-text-color-theme-dark);
+}
+
+.filters:active,
+.filters:hover,
+.filters:focus {
+   background-color: var(--accent-color);
+   color: var(--secondary-text-color-theme-light);
+}
+/* =========== /PORTFOLIO-FILTERS ===========*/
+
+/* =========== PORTFOLIO-PROJECTS ===========*/
+.portfolio-item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color-theme-dark);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.87;       
+    color: var(--primary-text-color-theme-gray);
+}
+.portfolio-box {
+    background: var(--secondary-color-light);
+    border: 1px solid var(--secondary-color-with);
+}
+
+
+/* =========== OSOBLIVOSTI ===========*/
+
+.section-osoblivosti {}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.section-osoblivosti-h {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(primary-text-color-theme-dark);
+}
+
+.section-osoblivosti-p {
+    line-height: 1.71;
+    color: var(--primary-text-color-theme-gray);
+}
+/* =========== /OSOBLIVOSTI ===========*/
+
+/* =========== WORK ===========*/
+.work {
+
+}
+
+.work-h {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--primary-text-color-theme-dark);
+}
+/* =========== /WORK ===========*/
+
+/* =========== COMANDA ===========*/
+.comanda {
+    background: var(--secondary-color);
+}
+
+.comanda-our {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.comanda-fon {
+    background: var(--secondary-text-color-theme-light);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.comanda-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.comanda-profesion{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--primary-text-color-theme-gray);
+}
+/* =========== /COMANDA ===========*/
+
+/* =========== /MAIN =========== */
+
+/* =========== FOOTER ===========*/
+.page-footer {
+    background: var(--secondary-text-color-theme-dark);
+}
+
+.logo-footer {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--secondary-text-color-theme-light);
+}
+
+.logo-footer-part1 {
+    color: var(--accent-color);
+}
+
+.footer-contact {
+    line-height: 1.71;
+    font-style: normal
+}
+
+.contact-menu {}
+
+.contact-menu-map {
+    color: var(--secondary-text-color-theme-light); 
+}
+
+.contact-menu-mail{
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid var(--secondary-color-dark);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.contact-menu-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-menu-map:hover,
+.contact-menu-map:focus {
+    color: var(--accent-color);
+}
+
+
+.contact-menu-mail:hover,
+.contact-menu-mail:focus {
+    color: var(--accent-color);
+}
+
+.contact-menu-tel:hover,
+.contact-menu-tel:focus {
+    color: var(--accent-color);
+}
+/* =========== /FOOTER ===========*/
