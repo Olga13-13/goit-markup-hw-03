@@ -78,6 +78,7 @@ body {
     padding-top: 24px;
     padding-bottom: 25px;
     border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 
@@ -349,9 +350,6 @@ body {
 
 
 .filters {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-               0px 1px 2px rgba(0, 0, 0, 0.08),
-               0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     border: none;
     font-weight: 500;
@@ -359,6 +357,7 @@ body {
     line-height: 1.63;
     align-items: center;
     color: var(--primary-text-color-theme-dark); 
+    padding: 6px 22px;
 }
 
 .filters:active,
@@ -384,6 +383,7 @@ body {
     padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
+    border: 1px solid var(--secondary-color-with);
 }
 
 .portfolio-item {
@@ -403,7 +403,6 @@ body {
 
 .portfolio-box {
     background: var(--secondary-color-light);
-    border: 1px solid var(--secondary-color-with);
     flex-basis: calc((100% - 60px) / 3);  
 }
 
@@ -449,11 +448,13 @@ body {
 
 .contact-container {}
 
-.contact-menu {}
+.contact-menu:not(:nth-child(3)) {
+    margin-bottom: 9px;
+}
+
 
 .contact-menu-map {
     color: var(--secondary-text-color-theme-light);
-    margin-bottom: 9px;
 }
 
 .contact-menu-mail{
@@ -461,7 +462,6 @@ body {
     border: 1px solid var(--secondary-color-dark);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
-    margin-bottom: 9px;
 }
 
     
